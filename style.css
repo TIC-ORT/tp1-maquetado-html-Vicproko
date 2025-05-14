@@ -5,30 +5,107 @@ box-sizing: border-box;
 }
 
 .arriba{
-height: 30vh;
-width: 100%;
-background-color: white;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 15vw;
 }
+
+.rectangulo {
+    background-color: rgb(253, 112, 56);
+    height: 10vh;
+    width: 60vh; 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 10vh;
+}
+
+.renglon1 {
+    background-color: rgb(255, 255, 255);
+    height: 2.5vh;
+    width: 55vh;
+    display: flex;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.cuadrado {
+    background-color: rgb(94, 93, 93);
+    height: 10vh;
+    width: 10vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 10vh;
+}
+
+.renglon2 {
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly; 
+    width: 100%;  
+    position: absolute;
+    top: 29vh; 
+    align-items: center;  
+    height: 2vh;
+    width: 20vw;
+    display: flex;
+}
+
+.renglon3 {
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly; 
+    width: 100%;  
+    position: absolute;
+    top: 29vh; 
+    align-items: center;  
+    height: 2vh;
+    width: 20vw;
+    display: flex;
+}
+
+.renglon4 {
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly; 
+    width: 100%;  
+    position: absolute;
+    top: 29vh; 
+    align-items: center; 
+    height: 2vh;
+    width: 20vw;
+    display: flex; 
+}
+
+.renglon5 {
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly; 
+    width: 100%;  
+    position: absolute;
+    top: 29vh; 
+    align-items: center; 
+    height: 2vh;
+    width: 20vw;
+    display: flex; 
+}
+
 
 .medio{
-height: 40vh;
-width: 100%;
-background-color: lightblue;
-display: flex;
+    background-color: powderblue;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 15vw;
 }
-
-.medio_izq{
-    background-color: lightblue;
-}
-
-.escudo{
-    height: 100%;
-}
-
-.medio_der{
-    background-color: lightblue;
-}
-
 
 .abajo{
 height: 45vh;
