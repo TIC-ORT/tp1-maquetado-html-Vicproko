@@ -51,7 +51,6 @@ box-sizing: border-box;
     width: 100%;  
     position: absolute;
     top: 29vh; 
-    align-items: center;  
     height: 2vh;
     width: 20vw;
     display: flex;
@@ -63,8 +62,7 @@ box-sizing: border-box;
     justify-content: space-evenly; 
     width: 100%;  
     position: absolute;
-    top: 29vh; 
-    align-items: center;  
+    top: 29vh;  
     height: 2vh;
     width: 20vw;
     display: flex;
@@ -76,8 +74,7 @@ box-sizing: border-box;
     justify-content: space-evenly; 
     width: 100%;  
     position: absolute;
-    top: 29vh; 
-    align-items: center; 
+    top: 29vh;  
     height: 2vh;
     width: 20vw;
     display: flex; 
@@ -90,7 +87,6 @@ box-sizing: border-box;
     width: 100%;  
     position: absolute;
     top: 29vh; 
-    align-items: center; 
     height: 2vh;
     width: 20vw;
     display: flex; 
@@ -103,8 +99,99 @@ box-sizing: border-box;
     width: 100vw;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-between; 
     padding: 0 15vw;
+}
+
+.cuadrado_izq{
+    background-color: rgb(67, 143, 153);
+    height: 25vh;
+    width: 25vh;
+    display: flex;
+    margin-top: 7vh;  
+    flex-direction: column; 
+    justify-content: flex-start; 
+
+}
+
+.cuadradito1 {
+    background-color: lightskyblue;
+    height: 2vh;
+    width: 2vh;
+    display: flex;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+
+.renglon6{
+    background-color: rgb(255, 255, 255);
+    height: 2vh;
+    width: 10vh;
+    display: flex;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 10vh;
+}
+
+.cuadradito2 {
+    background-color: lightskyblue;
+    height: 2vh;
+    width: 2vh;
+    display: flex;
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 5vh;
+}
+
+.renglon7{
+    background-color: rgb(255, 255, 255);
+    height: 2vh;
+    width: 10vh;
+    display: flex;
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 10vh;
+}
+
+.rectangulo2{
+    background-color: grey;
+    height: 5vh;
+    width: 80vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 7vh;
+}
+
+.renglon8{
+    background-color: white;
+    height: 2vh;
+    width: 80vh;
+    display: flex;
+    position: absolute;
+    margin-top: 9vh;
+    
+}
+
+.renglon9{
+    background-color: white;
+    height: 2vh;
+    width: 80vh;
+    display: flex;
+    position: absolute;
+    margin-top: 12vh;
+    
+}
+
+.renglon10{
+    background-color: white;
+    height: 2vh;
+    width: 50vh;
+    display: flex;
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 15vh;
 }
 
 .abajo{
