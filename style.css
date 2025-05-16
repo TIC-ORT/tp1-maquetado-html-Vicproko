@@ -269,3 +269,102 @@ box-sizing: border-box;
     margin-top: 23vh;
     left: 10;
 }
+
+.renglon16{
+    background-color: dimgrey;
+    height: 1.5vh;
+    width: 18vh;
+    display: flex;
+    position: absolute;
+    top: 100%;
+    margin-top: 26vh;
+    left: 10;
+}
+
+.cuadrado4 {
+    background-color: rgb(47, 114, 190);
+    height: 25vh;
+    width: 25vh;
+    display: flex;
+    margin-top: 8vh; 
+    margin-left: 65vh; 
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+
+.renglon17{
+    background-color: dimgrey;
+    height: 1.5vh;
+    width: 25vh;
+    display: flex;
+    position: absolute;
+    top: 100%;
+    margin-top: 20vh;
+    margin-left: 65vh;
+}
+
+.renglon18{
+    background-color: dimgrey;
+    height: 1.5vh;
+    width: 25vh;
+    display: flex;
+    position: absolute;
+    top: 100%;
+    margin-top: 23vh;
+    margin-left: 65vh;
+}
+
+.renglon19{
+    background-color: dimgrey;
+    height: 1.5vh;
+    width: 18vh;
+    display: flex;
+    position: absolute;
+    top: 100%;
+    margin-top: 26vh;
+    margin-left: 65vh;
+}
+
+.cuadradoo5{
+    background-color: goldenrod;
+    height: 25vh;
+    width: 25vh;
+    display: flex;
+    margin-top: 8vh; 
+    margin-left: 80vh; 
+    flex-direction: column; 
+    justify-content: flex-start;
+}
+
+.renglon20{
+    background-color: dimgrey;
+    height: 1.5vh;
+    width: 25vh;
+    display: flex;
+    position: absolute;
+    top: 100%;
+    margin-top: 20vh;
+    margin-left: 120vh;
+}
+
+.renglon21{
+    background-color: dimgrey;
+    height: 1.5vh;
+    width: 25vh;
+    display: flex;
+    position: absolute;
+    top: 100%;
+    margin-top: 23vh;
+    margin-left: 120vh;
+}
+
+.renglon22{
+    background-color: dimgrey;
+    height: 1.5vh;
+    width: 18vh;
+    display: flex;
+    position: absolute;
+    top: 100%;
+    margin-top: 26vh;
+    margin-left: 120vh;
+}
